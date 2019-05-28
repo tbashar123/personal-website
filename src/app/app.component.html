@@ -1,0 +1,39 @@
+
+
+
+<div class="jumbotron">
+    <div class ="background">
+      <div class="nav">
+          <a class="a active" href="#" (click)="displayBio()" > BIO</a>
+          <a class="b" href="#"  (click)="displaySkills()">SKILLS</a>
+          <a class="c" href="#" (click)="displayHobbies()">HOBBIES</a>
+          <a class="d"href="#" (click)="displayContact()" >CONTACT</a>
+        </div>
+    </div>
+
+
+<div class="center">
+          <img class="rounded-circle" src="./assets/images/tanvir.jpg" width="400px" height="400px">
+</div>
+
+
+
+<br>
+<br>
+
+
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-sm-6 text-right">
+              <a href="https://www.linkedin.com/in/tanvir-bashar/"><img src="./assets/images/linkedin.jpg" width="50px" height="37px"></a>
+            </div>
+            <div class="col-sm-6 text-left">
+            <a href="https://www.github.com/tbashar123/"><img src="./assets/images/github.png" width="50px" height="37px"></a>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<router-outlet></router-outlet>
